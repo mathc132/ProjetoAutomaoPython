@@ -19,4 +19,4 @@ def step_impl(context):
 
 @then(u'Clicar na opção desejada')
 def step_impl(context):
-    pass
+    context.subP.clickItem(2)
